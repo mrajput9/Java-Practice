@@ -9,7 +9,7 @@ public class areaR {
         System.out.println("Enter breadth of Rectangel:");
         b = sc.nextFloat();
         Float Area = a*b;
-        System.out.println("Area equals to:" +Area+"m\u00B2");
+        System.out.println("Area equals to :" +Area+"m\u00B2");
         sc.close();
     }   
 }

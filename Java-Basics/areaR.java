@@ -10,5 +10,6 @@ public class areaR {
         b = sc.nextFloat();
         Float Area = a*b;
         System.out.println("Area equals to:" +Area+"m\u00B2");
+        sc.close();
     }   
 }

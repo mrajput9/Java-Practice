@@ -10,6 +10,7 @@ public class IncomeTaxCalculator {
         double tax = calculateTax(earnings);
 
         System.out.println("Income Tax to be paid: Rs. " + tax);
+        scanner.close();
     }
 
     public static double calculateTax(double earnings) {
